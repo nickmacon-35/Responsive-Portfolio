@@ -220,7 +220,7 @@ input[type=submit] {
 
   /* main-sections's width will be 768px once the screen goes to 980 px*/
   .main-section {
-    width: 700px;
+    width: 680px;
     height: 100%;
   }
 }
@@ -238,7 +238,6 @@ input[type=submit] {
   .main-section {
     width: 100%;
   }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -252,8 +251,8 @@ input[type=submit] {
   }
 
   #masthead {
-    position: fixed;
-    z-index: 99;
+    position: static;
+    z-index: 99; 
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
